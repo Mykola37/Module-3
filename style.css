@@ -4,11 +4,11 @@ body {
 }
 
 .content {
-  border: 3px solid #007acc;   /* рамка */
-  border-radius: 10px;         /* скруглённые углы */
-  padding: 20px;               /* отступы внутри рамки */
-  margin: 40px;                /* отступы от края экрана */
-  background-color: #fff;      /* белый фон */
+  border: 3px solid #007acc;   
+  border-radius: 10px;         
+  padding: 20px;               
+  margin: 40px;                
+  background-color: #fff;    
   font-size: 18px;
   line-height: 1.6;
 }
@@ -25,3 +25,4 @@ h2 {
 p {
   color: #333;
 }
+
