@@ -15,26 +15,26 @@ header {
   font-weight: bold;
   padding: 15px 20px;
   position: absolute;
-  color: #333
+  color: #333;    /* ← у вас здесь не хватало точки с запятой */
   top: 0;
   left: 0;
-
 }
 
 .menu-title {
   text-align: center;
   color: #007acc;
   text-transform: uppercase;
-  margin: 70px 0 10px; /* сверху 50px, по бокам 0, снизу 20px */
-
+  margin: 70px 0 10px;
 }
+
+/* рамка вокруг текста */
 .text-box {
-  border: 2px solid #333;   /* рамка толщиной 2px и цветом #333 */
-  padding: 20px;           /* внутренние отступы, чтобы текст не прилипал к краям */
-  margin: 20px;            /* отступы вокруг блока */
-  background: #fff;        /* фон внутри рамки (можно убрать) */
+  border: 2px solid #333;
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
-
 
 .content {
   border: 3px solid #007acc;
@@ -43,12 +43,10 @@ header {
   margin: 50px;
   background-color: rgba(35, 38, 36, 0.499);
   font-size: 16px;
-  line-height: 1.6;      
+  line-height: 1.6;
   max-width: 1500px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-/* Заголовки по центру */
 h1, h2 {
   text-align: center;
   margin-bottom: 15px;
@@ -70,4 +68,3 @@ p {
   color: #333;
   text-align: justify;
 }
-
